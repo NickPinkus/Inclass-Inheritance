@@ -7,5 +7,8 @@ private:
 public:
 	Warrior(string name, int startingHealth, string swordType);
 	~Warrior();
+
+	string Taunt();
+
 };
 

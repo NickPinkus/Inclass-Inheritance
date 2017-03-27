@@ -16,6 +16,13 @@ int main()
 
 	auto mike = Warrior("mike", 150, "longsword");
 	DisplayCharacterInfo(mike);
+	mike.Taunt();
+
+	system("pause");
+
+	auto angryMike = Warrior("angrymike", 200, "not a sword but an axe instead");
+	DisplayCharacterInfo(angryMike);
+	angryMike.Taunt();
 
 	system("pause");
 

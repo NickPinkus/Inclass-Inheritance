@@ -11,3 +11,8 @@ Warrior::Warrior(string name, int startingHealth, string swordType) :
 Warrior::~Warrior()
 {
 }
+
+string Warrior::Taunt()
+{
+	return "Hey badguys attack me!";
+}
